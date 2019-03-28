@@ -1,0 +1,11 @@
+* {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+div.header {
+    font-family: Helvetica;
+    font-style: italic;
+    text-align: center
+}
