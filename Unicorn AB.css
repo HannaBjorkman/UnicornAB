@@ -32,6 +32,13 @@ div.header {
 
 }
 
+iframe {
+    margin-left: auto;   
+    margin-right: auto;
+    display: block;
+    border: 6px solid lightgrey;
+} 
+
 
 
 
