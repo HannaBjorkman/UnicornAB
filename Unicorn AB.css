@@ -9,7 +9,7 @@
 div.menu {
     
     background-color: transparent;
-    border: none;
+    border: 10px darkgrey;
     text-align: right;
     display: inline-block;
     font-size: 22px;
@@ -29,6 +29,16 @@ div.header {
     text-align: center;
     color: lightgray;
     align-items: center;
+
+}
+div.utmaningar {
+    column-count: 2;
+    font-family: impact;
+    font-size: 32px;
+    text-align: center;
+    color: lightgray;
+    align-items: center;
+    justify-content: center;
 
 }
 
