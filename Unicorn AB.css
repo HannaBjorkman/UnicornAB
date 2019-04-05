@@ -3,34 +3,60 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    background-color: black;
+}
+
+img {
+    display: inline-block;
+}
+
+li {
+    color: white;
+    font: 1em "Bookinsanity";
+    
 }
 
 div.menu {
-    
-    background-color: transparent;
-    border: 10px darkgrey;
-    text-align: right;
-    display: inline-block;
+    background-color: black;
     font-size: 22px;
     font-family: 'Calibri';
-    position: absolute;
-    right: 0px; 
-    padding-top: 20px;
-    padding-bottom: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-
 }
-div.header {
-    
-    font-family: impact;
-    font-size: 32px;
+
+.menulist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
     text-align: center;
-    color: lightgray;
-    align-items: center;
+  }
 
+.menulist li {
+    display:inline;
 }
+
+li a {
+    color:lightgray; 
+    background-color: transparent; 
+    text-decoration: none;
+    display:inline-block;
+}
+
+li:hover:not(.active){
+    background-color: #8a009d;
+}
+
+li.active {
+    color: black;
+    background-color: #ac00c4;
+}
+
+.menubg {
+    text-align: center;
+}
+
 div.utmaningar {
     column-count: 2;
     font-family: impact;
@@ -47,8 +73,66 @@ iframe {
     margin-right: auto;
     display: block;
     border: 6px solid lightgrey;
-} 
+    background-color: rgba(138, 0, 157, 0.8);
+    padding: 1%;
+}
 
+.Huvudrubrik {
+    font : 4em "Nodesto Caps";
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.textcol {
+    float: left;
+    padding: 4%;
+    width: 40%;
+}
+
+.underrubrikBg {
+	background-color: rgba(138, 0, 157, 0.8);
+	opacity: 1;
+    margin:auto;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 2%;
+}	
+
+.underrubrik {
+    font: 3em "Mr. Eaves Small Caps";
+    color: white;
+    text-align: center;
+    margin:auto;
+}
+
+.paragrafer {
+    font: 1em "Bookinsanity";
+    margin: auto;
+    background-color:#ac00c4;
+}
+
+.paragrafBg {
+    border: 1px solid black;
+    background-color: #ac00c4;
+	opacity: 0.8;
+    padding: 3%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.background {
+    background: url(https://i.imgur.com/5lLdMft.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+  }
 
 
 
