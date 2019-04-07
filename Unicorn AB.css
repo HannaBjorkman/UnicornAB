@@ -1,19 +1,23 @@
+/*
 * {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
+*/
 
-img {
-    display: inline-block;
-}
+.background {
+    background: url(https://i.imgur.com/5lLdMft.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
-li {
-    color: white;
-    font: 1em "Bookinsanity";
-    
-}
+/***********************************************************************
+***                      Meny formatering                            ***
+***********************************************************************/
 
 div.menu {
     background-color: black;
@@ -38,33 +42,105 @@ div.menu {
 }
 
 li a {
-    color:lightgray; 
+    color:lightgray;
+    font: 1em "Bookinsanity"; 
     background-color: transparent; 
     text-decoration: none;
     display:inline-block;
+    padding: 10px;
 }
 
-li:hover:not(.active){
+li a:hover:not(.active){
     background-color: #8a009d;
 }
 
-li.active {
+li a.active {
     color: black;
-    background-color: #ac00c4;
+    background-color: #8a009d;
 }
-
+/*
 .menubg {
     text-align: center;
 }
-
-div.utmaningar {
-    column-count: 2;
-    font-family: impact;
-    font-size: 32px;
+*/
+.bg2 {
     text-align: center;
-    color: lightgray;
-    align-items: center;
-    justify-content: center;
+    background: url(https://image.redbull.com/rbcom/010/2015-04-08/1331715804779_2/0100/0/1/inside-esl%E2%80%99s-esports-cinema-invasion.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+/***********************************************************************
+***                      Text formatering                            ***
+***********************************************************************/
+
+.Huvudrubrik {
+    font : 4em "Nodesto Caps";
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.underrubrik {
+    /*font: 3em "Mr. Eaves Small Caps";*/
+    font: 3em "Bookinsanity";
+    color: white;
+    text-align: center;
+    margin:auto;
+}
+
+.textcol {
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 40%;
+}
+
+.colBg {
+    background-color: rgba(112,128,144, 0.9);
+	opacity: 1;
+    margin: 4%;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 2%;
+}	
+
+.paragrafer {
+    font: 1em "Bookinsanity";
+    margin: auto;
+    text-align: center;
+}
+
+.paragrafBg {
+    border: 1px solid black;
+    background-color: rgba(112,128,144, 0.9);
+    padding: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 4%;
+    border-radius: 25px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/***********************************************************************
+***                 iframe och bildformatering                       ***
+***********************************************************************/
+.imgcenter {
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    margin-top:3%;
+    margin-bottom: 1%;
 
 }
 
@@ -76,68 +152,3 @@ iframe {
     background-color: rgba(112,128,144, 0.9);
     padding: 1%;
 }
-
-.Huvudrubrik {
-    font : 4em "Nodesto Caps";
-    margin: auto;
-    text-align: center;
-    color: white;
-}
-
-.textcol {
-    float: left;
-    padding: 4%;
-    width: 40%;
-}
-
-.underrubrikBg {
-    background-color: rgba(112,128,144, 0.9); /*rgba(138, 0, 157, 0.8);*/
-	opacity: 1;
-    margin:auto;
-    border-radius: 25px;
-    border: 1px solid black;
-    padding: 2%;
-}	
-
-.underrubrik {
-    font: 3em "Mr. Eaves Small Caps";
-    color: white;
-    text-align: center;
-    margin:auto;
-}
-
-.paragrafer {
-    font: 1em "Bookinsanity";
-    margin: auto;
-    /*background-color: rgba(128,128,128, 0.8);
-    background-color:#ac00c4;*/
-}
-
-.paragrafBg {
-    border: 1px solid black;
-    background-color: rgba(112,128,144, 0.9);
-    /*background-color: #ac00c4;
-	opacity: 0.8;*/
-    padding: 3%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.background {
-    background: url(https://i.imgur.com/5lLdMft.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: black;
-  }
-
-
-
-
