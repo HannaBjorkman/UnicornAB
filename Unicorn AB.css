@@ -24,7 +24,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #111;
     position: fixed;
     top: 0;
     width: 100%;
@@ -32,23 +32,23 @@
 }
   
 li {
-display: inline-block;
+    display: inline-block;
 }
 
 li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover:not(.active) {
-background-color: #111;
+    background-color: #333;
 }
 
 .active {
-background-color: #8a009d;
+    background-color: #8a009d;
 }
 
 /***********************************************************************
@@ -56,18 +56,24 @@ background-color: #8a009d;
 ***********************************************************************/
 
 .Huvudrubrik {
-    font : 4em "Nodesto Caps";
+    /*font : 4em "Nodesto Caps";*/
+    font: 4em "Raider Crusader";
     margin: auto;
     text-align: center;
     color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 .underrubrik {
-    /*font: 3em "Mr. Eaves Small Caps";*/
-    font: 3em "Bookinsanity";
+    /*font: 3em "Mr. Eaves Small Caps";
+    font: 3em "Bookinsanity";*/
+    font: 3em "Raider Crusader";
     color: white;
     text-align: center;
     margin:auto;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .textcol {
