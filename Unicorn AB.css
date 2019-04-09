@@ -68,7 +68,7 @@ li a:hover:not(.active) {
     color: white;
     text-align: center;
     margin:auto;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
@@ -120,11 +120,13 @@ li {
     color: white;
     -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: black;
-    text-align: left;
 }
 
 .nobullet {
     list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 3%;
 }
 
 /***********************************************************************
