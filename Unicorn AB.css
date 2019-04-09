@@ -73,6 +73,18 @@ li a:hover:not(.active) {
     -webkit-text-stroke-color: black;
 }
 
+.underrubrikTeknik {
+    /*font: 3em "Mr. Eaves Small Caps";
+    font: 3em "Bookinsanity";*/
+    font: 3em "Raider Crusader";
+    color: white;
+    text-align: left;
+    margin:auto;
+    margin-bottom: 4%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
 .textcol {
     float: left;
     padding-left: 5%;
