@@ -123,13 +123,14 @@ li {
     text-align: left;
 }
 
-ul {
+.nobullet {
     list-style-type: none;
 }
 
 /***********************************************************************
 ***                 iframe och bildformatering                       ***
 ***********************************************************************/
+
 .imgcenter {
     text-align: center;
     margin-bottom: 1%;
